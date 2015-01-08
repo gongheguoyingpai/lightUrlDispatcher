@@ -21,6 +21,16 @@ Add it to your web project, /WBE-INF/lib/this-package. And, add
   <url-pattern>/</url-pattern>
 </servlet-mapping>
 ```
+If you use static resources, such as css, js, picture.
+
+you should write url rule in web.xml as
+
+```xml
+  <servlet-mapping>
+    <servlet-name>default</servlet-name>
+    <url-pattern>*.jpg</url-pattern>
+  </servlet-mapping>
+```
 
 OK, now you can use our dispatcher to do your url-router.
 
