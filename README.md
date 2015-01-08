@@ -14,11 +14,11 @@ Add it to your web project, /WBE-INF/lib/this-package. And, add
        
 <servlet>
   <servlet-name>your servlet name</servlet-name>
-  <servlet-class>com.zhang.controller.ServletDispacher</servlet-class>
+  <servlet-class>com.zhang.controller.ServletDispatcher</servlet-class>
 /servlet>
 <servlet-mapping>
-  <servlet-name>all</servlet-name>
-  <url-pattern>/*</url-pattern>
+  <servlet-name>your servlet name</servlet-name>
+  <url-pattern>/</url-pattern>
 </servlet-mapping>
 ```
 
